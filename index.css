@@ -1,0 +1,332 @@
+body {
+  background-color: white;
+  margin: 0;    
+  padding: 0;
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #2e3540;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #f1da44;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  position: absolute;
+  left: 30%;
+  top: 13%;
+  width: 653px;
+  height: 250px;
+  text-align: center;
+  text-shadow: #000 2px 3px 4px; 
+  font-size: 4rem;
+  padding: 1rem 2rem 1rem 2rem;
+  color: #dee7e6;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.bannersuperior {
+  position: relative;
+  height: 100px;
+  }
+
+.contenedortitulo{
+  display: flex;
+  position: relative;
+  right: 550px;
+  bottom: 95px; 
+}
+
+.titulo {
+  font-size: 20px;
+  font-weight: bolder;
+  width: 220px;
+  height: 120px;
+  color: #dee7e6;
+  margin: 0;
+  padding: 0;
+}
+
+.logocas {
+  position: relative;
+  bottom: 8px;
+  right: 653px;
+  width: 120px;
+  height: 120px;
+}
+
+.ultima{
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  margin: 0;
+}
+
+.boton {  
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;    
+}
+
+.botones {
+  display: flex;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 10px; 
+  font-weight: bold;
+  text-transform: uppercase; 
+  font-size: 18px;
+  } 
+
+.primera-seccion {
+  display: flex;
+  background-image: url("Banner pag club .jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 480px;
+}
+
+.tercer-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/*
+.segunda-seccion {
+  background-color: #f1da44;
+  max-width: 100%;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  width: 60rem;
+}
+
+.contenedor-cuadrado {
+  width: 500px;
+  height: auto; 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cuadrado {
+  width: 80%;
+  height: 310px;
+  background-color: #2e3540;
+  border-radius: 5px;
+}
+
+.Misión {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color:#f1da44;
+}
+
+.texto-Misión {
+  position: relative;
+  top: 20px;
+  text-align: justify;
+  font-size: 20px;
+  margin: 1rem;
+  padding: 1rem;
+  color: #a7b4b8;
+}
+
+.lista2{
+  list-style-type: disc;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  color: #a7b4b8;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.lista{ 
+  margin-left: 16px;
+} */
+
+.logo-cas {
+  display: flex;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 100px;
+  height: 100px;
+}
+
+.segunda-seccion {
+  background-color: #2e3540;
+  max-width: 100%;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  } 
+
+.sub-contenedor-4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+.sobre-nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #2e3540;
+  padding: 1rem;
+  background-color: #f1da44;
+}
+
+.somos-el-club {
+  color: #dee7e6;
+  margin: 1rem;
+  padding: 1rem; 
+  font-size: 20px;
+  text-align: justify;
+}
+
+.tercera-seccion {
+  background-color: #2e3540;
+  max-width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fila-de-imagenes {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  opacity: 0.6;
+  background-color: black;
+}
+
+.sub-contenedor-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+}
+
+.cuadrado {
+  height: 296px;
+}
+
+.imagenes-fila {
+  max-width: 100%;
+  height: 100%;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  width: 80%;
+  margin: 1rem;
+  position: relative;
+  top: 10px;
+}
+
+.titulo-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #2e3540;
+  padding: 1rem;
+  background-color: #f1da44;
+}
+
+.texto-contacto {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3rem;
+  color: #dee7e6;
+}
+
+ion-icon {
+  color: #f1da44;
+  position: relative;
+  top: 3px;
+}
+
+.sub-contenedor-5 {
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+.sub-contenedor-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 1rem;
+}
+
+.negrita {
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: #dee7e6;
+}
+
+.ref {
+  font-size: 20px;
+  text-align: start;
+  color: #dee7e6;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
