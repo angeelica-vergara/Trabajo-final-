@@ -94,7 +94,6 @@ p{
   list-style: none;
   margin: 0;
   padding: 0;
-
   display: flex;    
 }
 
@@ -148,6 +147,7 @@ p{
   color: #2e3540;
   padding: 1rem;
   background-color: #f1da44;
+  max-width: 100%;
 }
 
 .somos-el-club {
@@ -168,13 +168,13 @@ p{
 .contenedor {
   display: flex;
   justify-content: space-evenly; 
-  max-width: 100%;
+  width: 80%;
   height: 100%;
   margin: 1rem;
 }
 
 .contenedor-cuadrado {
-  width: 700px;
+  width: 100%;
   height: auto; 
   display: flex;
   justify-content: space-evenly;
@@ -190,7 +190,6 @@ p{
 
 .Misión {
   display: flex;
-  text-align: center;
   justify-content: center;
   text-align: center;
   font-size: 40px;
@@ -356,8 +355,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content:space-evenly;
-  max-width: 100%;
-    }
+  width: 100%;
+}
 
 .columnas-footer {
   display: flex;
