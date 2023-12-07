@@ -20,6 +20,7 @@ header {
   background-color: #2e3540;
   max-width: 100%;
   height: 90px;
+  border-bottom: 2px solid #a7b4b8; 
 }
 
 a {
@@ -31,6 +32,12 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -119,6 +126,7 @@ p{
   background-image: url("Banner pag club .jpg");
   background-size: cover;
   background-position: center;
+  border-bottom: 2px solid #a7b4b8; 
   max-width: 100%;
   height: 300px;
 }
@@ -190,9 +198,10 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25rem;
+  width: 23rem;
   height: 18rem;
   border-radius: 8px;
+  background-color: #000 0.7;
 }
 
 .tercera-seccion {
@@ -264,7 +273,7 @@ p{
   height: 70%;
 }
 
-.lista2{
+.lista-valores{
   list-style: none;
   font-size: 1.3rem;
   color: #2e3540;
@@ -272,7 +281,7 @@ p{
   padding-left: 0;
 }
 
-.lista ion-icon {
+.valores ion-icon {
   margin-bottom: 10px;
   color: #2e3540;
   position: relative;
@@ -318,7 +327,7 @@ p{
   color: #dee7e6;
 }
 
-ion-icon {
+.negrita ion-icon {
   color: #f1da44;
   position: relative;
   top: 3px;
@@ -379,14 +388,16 @@ ion-icon {
 }
 
 .logo-sponsor {
-  width: 70%;
-  height: 55%;
+  width: 60%;
+  height: 45%;
 }
 
 footer {
   background-color: #2e3540;
-  padding: 1rem;
   text-align: center;
+  border-top: 2px solid #a7b4b8; 
+  padding: 0.5 rem 0;
+  font-size: 0.9rem;
 }
 
 .contenedor-footer {
@@ -394,7 +405,6 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  border-top-color: 8px #a7b4b8;
 }
 
 .sub-contenedor-8 { 
@@ -410,42 +420,37 @@ footer {
   }
 
 .copyright {
-  font-size: 14px;
-  color: #666666;
+  font-size: 0.9rem;
+  color: #67727a;
+  margin: 0.5rem;
 }
 
-.nav-footer li {
+.lista-footer {
+  list-style: none;
+  padding: 0;
   display: flex;
-  margin-right: 10px;
 }
 
-.nav-footer ul {
+.lista-footer ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav-footer a {
-  color: #666666;
-  text-decoration: none;
+.lista-footer li {
+  display: flex;
+  margin-right: 20px;
 }
 
-.redes-sociales {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.lista-footer a {
+  color: #67727a;
 }
 
 .redes-sociales li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 0.6rem;
 }
 
-.redes-sociales {
-  color: #666666;
-  text-decoration: none;
-}
-
-.redes-sociales i {
-  font-size: 1.3rem;
+.redes-sociales ion-icon{
+  color: #67727a;
 }
