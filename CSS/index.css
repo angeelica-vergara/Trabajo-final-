@@ -396,15 +396,11 @@ footer {
   background-color: #2e3540;
   text-align: center;
   border-top: 2px solid #a7b4b8; 
-  padding: 0.5 rem 0;
-  font-size: 0.9rem;
-}
-
-.contenedor-footer {
-  max-width: 100%;
-  margin: 0 auto;
+  font-size: 0.9rem;  
   display: flex;
   justify-content: space-around;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .sub-contenedor-8 { 
