@@ -8,9 +8,6 @@ body {
   background-color: #2e3540;
   margin: 0;    
   padding: 0;
-  color: #000;
-  font-family: Arial, sans-serif;
-  font-size: 1rem;
 }
 
 header {
@@ -20,6 +17,11 @@ header {
   background-color: #2e3540;
   max-width: 100%;
   height: 90px;
+  margin: 0;
+}
+
+section {
+  max-width: 100%;
 }
 
 a {
@@ -27,6 +29,7 @@ a {
   color: #f1da44;
   display: flex;
   justify-content: center;
+  font-family: Arya, sans-serif;
 }
 
 a:hover {
@@ -41,6 +44,7 @@ ul {
 
 li {
   margin-right: 10px;
+  font-family: Arya, sans-serif;
 }
 
 h1 {
@@ -50,17 +54,30 @@ h1 {
   height: 250px;
   text-align: center;
   text-shadow: #000 2px 3px 4px; 
+  font-family: 'antonio', sans-serif;
   font-size: 4rem;
-  color: #dee7e6;
+  text-transform: uppercase;
+  color: #ffff;
 }
 
 h2 {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family:'Antonio', sans-serif;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2.2rem;
+  font-family: 'Arya', sans-serif;
+  text-transform: uppercase;
 }
 
 p{
+  font-family: Arya, sans-serif;
+  font-size: 1.3rem;
   margin: 0;
   padding: 0;
 }
@@ -125,17 +142,35 @@ p{
   background-image: url("Banner pag club .jpg");
   background-size: cover;
   background-position: center;
-  border-top: 10px solid #f1da44; 
-  border-bottom: 10px solid #f1da44; 
+  border-top: 6px solid #f1da44; 
+  border-bottom: 6px solid #f1da44; 
   max-width: 100%;
   height: 320px;
+  margin-bottom: 2REM;
+  position: relative;
 }
 
-.tercer-bloque {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.boton-unirse {
+  position: absolute;
+  bottom: 20px;
+  right: 120px;
+  background-color: #f1da44;
+  border-radius: 5px;
+  padding: 0.1rem 7rem;
+  color: #2e3540;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration:none;
+
+  &:hover {
+    background-color: #dee7e6;
+    color: #2e3540;
+  }
 }
+
 
 .segunda-seccion {
   width: 100%;
@@ -143,15 +178,15 @@ p{
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin: 0.5rem;
+  margin: 1REM 0;
   } 
 
 .contenedor-segunda-seccion {
-  width: 100%;
+  width: 90%;
   height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .sub-contenedor-4 {
@@ -159,7 +194,7 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 50%;
   margin: 1rem;
 }
 
@@ -167,11 +202,10 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
   color: #2e3540;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #f1da44;
   width: 100%;
   border-radius: 8px;
@@ -181,9 +215,8 @@ p{
   display: flex;
   color: #dee7e6;
   margin: 2rem 1rem 1rem 1rem;
-  font-size: 1.3rem;
   text-align: left;
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -214,21 +247,33 @@ p{
 
 .tercera-seccion {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   width: 100%;
-  height: 456px;
+  height: auto;
+  margin: 1REM 0;
 }
 
-.titulo-partidos h2 {
+.Juegos {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-partidos {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
+}
+
+.t-partidos {
+  font-size: 3.5rem;
   text-align: center;
-  text-transform: uppercase;
-  color: #2e3540;
-  padding: 1rem;
-  background-color: #f1da44;
+  letter-spacing: 0.1em;
+  color: #f1da44;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+  margin: 0.5rem 0 ;
+  /* background-color: #f1da44; */
   width: 100%;
   border-radius: 8px;
 }
@@ -237,39 +282,43 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-evenly; 
-  height: 100%;
-  margin: 1rem;
+  height: auto;
+  margin: 1rem 0;
 }
 
 .partidos {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: grey;
+  align-items: center;
+/*  background-color: grey;*/
   max-width: 100%;
   height: auto;
-  margin: 1rem;
-  padding: 2rem;
 }
 
 .partidos h3 { 
   display: flex;
   justify-content: center;
   align-items: center;
-  text-transform: uppercase;
   text-align: center;
   color: #f1da44;
-  font-size: 2.5rem;
   font-weight: bold;
-  margin: 1rem;
+}
+
+#horario {
+  color: #f1da44;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0.7rem 0 0.7rem 0;
 }
 
 .partidos p {
   display: flex;
   justify-content: center;
   text-align: left;
-  font-size: 1.3rem;
-  margin: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0.3rem 0.3rem 0.3rem;
   color: #dee7e6;
   height: 70%;
 }
@@ -280,25 +329,23 @@ p{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 0.5rem;
+  margin: 1rem 0;
 }
 
 .contacto {
   display: flex;
   flex-direction: column;
   justify-content: center ;
-  width: 80%;
+  width: 90%;
   margin: 1rem;
 }
 
-.titulo-contacto {
+.titulo-contacto{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
-  text-transform: uppercase;
   color: #2e3540;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #f1da44;
   border-radius: 8px;
 }
@@ -333,7 +380,6 @@ p{
 }
 
 .negrita {
-  text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: bold;
   text-align: center;
@@ -355,8 +401,31 @@ p{
   max-width: 100%;
   height: auto;
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin: 0.5rem;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.sub-contenedor-sponsor {
+  max-width: 90%;
+  height: auto;
+}
+
+.t-sponsors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1da44;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.titulo-p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2e3540;
+  padding: 0.5rem; 
 }
 
 .sponsors {
@@ -370,23 +439,27 @@ p{
   align-items: center;
   justify-content: center;
   margin: 1rem;
-  width:-webkit-fill-available; 
+  width:80% 
 }
 
 .logo-sponsor {
-  width: 60%;
-  height: 45%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
 }
 
 footer {
   background-color: #2e3540;
   text-align: center;
-  border-top: 10px solid #f1da44;  
+  border-top: 6px solid #f1da44;  
   font-size: 0.9rem;  
   display: flex;
   justify-content: space-around;
   max-width: 100%;
-  margin: 0 auto;
+  height: 3em;
+  margin: 0;
 }
 
 .sub-contenedor-8 { 
