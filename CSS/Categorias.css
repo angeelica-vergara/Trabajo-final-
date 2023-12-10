@@ -67,18 +67,27 @@ h2 {
   font-family:'Antonio', sans-serif;
   font-size: 2.8rem;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color:#f1da44;
 }
 
 h3 {
   font-size: 2.2rem;
   font-family: 'Arya', sans-serif;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin: 0.5rem;
+  color:#f1da44;
 }
 
 p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.01rem;
+  font-weight: bold;
+  color: #dee7e6;
   margin: 0;
   padding: 0;
 }
@@ -173,25 +182,46 @@ p {
 }
 
 /* Estilos generales para las categorías */
-.categorias {
+.seccion-categorias {
   max-width: 100%;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.categoria {
-  border: 2px solid #f1da44;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px 0;
+.seccion-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f1da44;
+  border-radius: 8px;
 }
 
+.contenedor-categorias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin: 1rem;
+}
+.categoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   border: 1px solid #f1da44;
+  border-radius: 8px;
+}
 
+.columnas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* Media queries para ajustes responsivos */
-/* Pantalla pequeña */
+/* Pantalla pequeña*/
 @media screen and (max-width: 576px) {
   .categoria {
     width: 90%;
@@ -201,17 +231,16 @@ p {
 /* Pantalla mediana */
 @media screen and (min-width: 577px) and (max-width: 1000px) {
   .categoria {
-    width: 70%;
+    width: 90%;
   }
 }
 
 /* Pantalla grande */
 @media screen and (min-width: 1001px) {
   .categoria {
-    width: 50%;
+    width: 90%;
   }
 }
-
 
 footer {
   background-color: #2e3540;
