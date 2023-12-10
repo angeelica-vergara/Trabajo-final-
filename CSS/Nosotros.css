@@ -211,7 +211,7 @@ p {
 .cuadrado {
   max-width: 76%;
   height: auto;
-  background-image: linear-gradient( #f1da44, #dee7e6);
+  border: 1px solid #f1da44;
   border-radius: 15px;
   margin: 1rem;
 }
@@ -224,7 +224,7 @@ p {
   text-align: center;
   font-weight: bold;
   margin: 1rem 1rem 0.5rem 1rem ;
-  color:#2e3540;
+  color:#f1da44;
 
 }
 
@@ -234,13 +234,13 @@ p {
   text-align: left;
   font-size: 1rem;
   margin: 0.5rem 1rem 1rem 1rem;
-  color: #2e3540;
+  color: #dee7e6;
 }
 
 .lista-valores{
  list-style: none;
  font-size: 1rem;
- color: #2e3540;
+ color: #dee7e6;
  margin:0.5rem 1rem 1rem  1rem;
  padding-left: 0;
  display: flex;
@@ -249,7 +249,7 @@ p {
  
 .valores ion-icon {
   margin-bottom: 10px;
-  color: #2e3540;
+  color: #dee7e6;
   position: relative;
   top: 0.75rem;
 }
@@ -337,8 +337,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
+  padding: 1rem;
   color: #f1da44;
+  border: 1px solid #f1da44;
   border-radius: 8px;
 }
 
@@ -375,7 +376,7 @@ p {
   font-size: 1.8rem;
   font-weight: bold;
   text-align: center;
-  color: #dee7e6;
+  color: #f1da44;
 }
 
 .ref {

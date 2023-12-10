@@ -204,9 +204,9 @@ p {
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  color: #2e3540;
+  color: #f1da44;
   padding: 0.5rem;
-  background-color: #f1da44;
+  border: 1px solid #f1da44;
   width: 100%;
   border-radius: 8px;
 }
@@ -271,16 +271,18 @@ p {
   text-align: center;
   letter-spacing: 0.1em;
   color: #f1da44;
-  padding: 0.5rem 0.5rem 2rem 0.5rem;
+  padding: 1rem 
   margin: 0.5rem 0 ;
-  /* background-color: #f1da44; */
-  width: 100%;
+  border: 1px solid #f1da44;
+  width: 70%;
   border-radius: 8px;
 }
 
-.t-partidos ion-icon {
+.icono { 
   font-size: 3rem;
-  color: #dee7e6;
+  color: #dee7e6; 
+  transform: rotate(180deg);
+  transition: transform 2s ease-in-out cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .fechas {
@@ -296,7 +298,6 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-/*  background-color: grey;*/
   max-width: 100%;
   height: auto;
 }
@@ -355,21 +356,25 @@ p {
 .sub-contenedor-sponsor {
   max-width: 90%;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .t-sponsors {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f1da44;
-  width: 100%;
+  border: 1px solid #f1da44;
+  width: 25%;
   border-radius: 8px;
 }
 
 .titulo-p {
   text-align: center;
   text-transform: uppercase;
-  color: #2e3540;
+  color: #f1da44;
   padding: 0.5rem; 
 }
 
