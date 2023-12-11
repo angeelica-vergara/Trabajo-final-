@@ -177,7 +177,6 @@ p {
   }
 }
 
-/* Estilos generales para las categorías */
 .seccion-categorias {
   max-width: 100%;
   display: flex;
@@ -190,6 +189,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 5px solid #f1da44;
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 .contenedor-categorias {
@@ -208,7 +210,7 @@ p {
 .categoria {
   display: flex;
   flex-direction: column;
-   border: 5px solid #f1da44;
+   border: 1px solid #f1da44;
   border-radius: 8px;
   margin: 1.5rem;
   padding: 1rem;
