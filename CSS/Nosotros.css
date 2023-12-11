@@ -186,7 +186,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10%;
+  height: 20%;
   max-width: 90%;
   color: #f1da44;
   margin: 1rem;
@@ -196,24 +196,19 @@ p {
   display: flex;
   justify-content: space-evenly; 
   width: 90%;
-  height: 100%;
+  height: 80%;
   margin: 1rem;
 }
 
 .contenedor-cuadrado {
-  width: 100%;
+  width: 30%;
   height: auto; 
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 0;
-}
 
-.cuadrado {
-  max-width: 76%;
-  height: auto;
-  border: 1px solid #f1da44;
-  border-radius: 15px;
-  margin: 1rem;
 }
 
 .Misión {
@@ -223,35 +218,44 @@ p {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  margin: 1rem 1rem 0.5rem 1rem ;
+  margin: 0.5rem ;
   color:#f1da44;
+  border: 5px solid #f1da44;
+  border-radius: 15px;
+  width: 70%;
+}
 
+.cuadrado {
+  max-width: 90%;
+  height: 100%;
+  border: 5px solid #f1da44;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .texto-Misión {
   display: flex;
   justify-content: center;
   text-align: left;
-  font-size: 1rem;
-  margin: 0.5rem 1rem 1rem 1rem;
   color: #dee7e6;
+  height: 90%;
 }
 
 .lista-valores{
- list-style: none;
- font-size: 1rem;
  color: #dee7e6;
- margin:0.5rem 1rem 1rem  1rem;
  padding-left: 0;
- display: flex;
- flex-direction: column;
+  height: 90%;
+  width: 100%;
 }
- 
+
 .valores ion-icon {
-  margin-bottom: 10px;
   color: #dee7e6;
   position: relative;
-  top: 0.75rem;
+  margin-right: 5px;
 }
 
 .tercera-seccion {

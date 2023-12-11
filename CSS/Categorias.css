@@ -68,16 +68,13 @@ h2 {
   font-size: 2.8rem;
   text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
   color:#f1da44;
 }
 
 h3 {
   font-size: 2.2rem;
   font-family: 'Arya', sans-serif;
-  text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
   margin: 0.5rem;
   color:#f1da44;
 }
@@ -86,7 +83,6 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.01rem;
-  font-weight: bold;
   color: #dee7e6;
   margin: 0;
   padding: 0;
@@ -194,32 +190,31 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #f1da44;
-  border-radius: 8px;
 }
 
 .contenedor-categorias {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
   width: 90%;
   height: auto;
   margin: 1rem;
 }
-.categoria {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-   border: 1px solid #f1da44;
-  border-radius: 8px;
-}
 
 .columnas {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0.5rem 0;
 }
+
+.categoria {
+  display: flex;
+  flex-direction: column;
+   border: 5px solid #f1da44;
+  border-radius: 8px;
+  margin: 1.5rem;
+  padding: 1rem;
+  height: 90%;
+}
+
 /* Media queries para ajustes responsivos */
 /* Pantalla pequeña*/
 @media screen and (max-width: 576px) {
