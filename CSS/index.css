@@ -153,39 +153,41 @@ p {
   position: relative;
 }
 
-@media (max-width: 576px) {
-  .primera-seccion { 
-     height: 10%;
-  }
+.titulo-banner {
+  display: flex;
+  justify-content: center; 
+  width: 90%;
+  height: 40%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-banner h1 {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 70%;
 }
 
 .boton-unirse {
-  position: absolute;
-  bottom: 20px;
-  right: 120px;
+  display: flex;
+  align-items: center;
+  width: 60%;
   background-color: #f1da44;
   border-radius: 5px;
-  padding: 0.1rem 7rem;
+  margin: 0.5rem;
   color: #2e3540;
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  text-decoration:none;
 
   &:hover {
     background-color: #dee7e6;
     color: #2e3540;
   }
 }
-
-@media (max-width: 576px) {
-  .boton-unirse {
-  right: 320px; 
-       }
-}
-
 
 .segunda-seccion {
   width: 100%;
@@ -248,8 +250,8 @@ p {
 }
 
 .img-sobre-nosotros {
-  width: 15rem; /* Ajusta el tamaño de cada imagen */
-  height: 11rem; /* Establece la altura deseada */
+  width: 15rem; 
+  height: 11rem; 
   border-radius: 8px;
   margin: 0.5rem;
 }
@@ -350,10 +352,6 @@ p {
   flex-direction: column;
   margin: 1rem 0;
 }
-
-
-
-
 
 .quinta-seccion {
   max-width: 100%;
