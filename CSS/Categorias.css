@@ -293,33 +293,146 @@ footer {
   color: #67727a;
 }
 
-/* Pantalla pequeña*/
-@media screen and (max-width: 576px) {
-  .categoria {
+/* pequeña*/
+@media (max-width: 576px) {
+  .primera-seccion {
+   height: 150px;
+   }  
+
+   .titulo-banner h1 {
+    font-size: 2rem;
+   }
+   
+   .boton-unirse {
+    width: 22%;
+    font-size: 0.9rem;
+   }
+    
+    .seccion-titulo h2 {
+      font-size: 1.5rem;
+    }
+
+    .categoria {
     width: 90%;
     background-color: yellow;
   }
   .categoria h1 {
     justify-content: center;
     font-size: 2rem;
-  }
+   }
 }
 
-/* Pantalla mediana */
+/* mediana */
 @media (min-width: 577px) and (max-width: 1000px) {
+
+  header {
+    height: 58px;
+  }
+  
+  .logo-cas {
+    width: 15%;
+    height: 50%;
+  }
+
+  .boton {
+    font-size: 0.7rem;
+  }
+
+  .primera-seccion {
+   height: 150px;
+   }  
+
+   .titulo-banner h1 {
+    font-size: 2rem;
+   }
+   
+   .boton-unirse {
+    width: 22%;
+    font-size: 0.9rem;
+   }
+    
+    .seccion-titulo h2 {
+      font-size: 1.5rem;
+    }
+
+   .columnas {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+   }
+
   .categoria {
     width: 90%;
     background-color: grey;
    }
     .categoria h3 {
     font-size: 1.5rem;
-   }
+
+    .categoria p {
+    font-size: 1.5rem;
+    max-width: 80%;
+    }
+
+    .redes-sociales ul { 
+    display:flex;
+    flex-direction: row;
+     }
 }
 
-/* Pantalla grande */
-@media screen and (min-width: 1001px) {
-  .categoria {
+/* grande */
+@media (min-width: 1001px) {
+
+    header {
+    height: 58px;
+  }
+  
+  .logo-cas {
+    width: 15%;
+    height: 50%;
+  }
+
+  .boton {
+    font-size: 0.7rem;
+  }
+
+  .primera-seccion {
+   height: 150px;
+   }  
+
+   .titulo-banner h1 {
+    font-size: 2rem;
+   }
+   
+   .boton-unirse {
+    width: 22%;
+    font-size: 0.9rem;
+   }
+    
+    .seccion-titulo h2 {
+      font-size: 1.5rem;
+    }
+
+   .columnas {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+   }
+
+   
+   .categoria {
     width: 90%;
     background-color: green;
   }
+    .categoria h3 {
+    font-size: 1.5rem;
+  }
+    .categoria p {
+    font-size: 1.5rem;
+    max-width: 80%;
+    }
+
+    .redes-sociales ul { 
+    display:flex;
+    flex-direction: row;
+     }
 }

@@ -371,14 +371,6 @@ p {
   width: 60%;
 }
 
-@media screen and (max-width: 576px) {
-  .titulo-contacto {
-    font-size: 1.5rem; /* Ajusta el tamaño del texto para dispositivos pequeños */
-    width: 100%; /* Ajusta el ancho para que se ajuste al contenedor */
-    padding: 0.5rem; /* Reduce el espacio interno */
-  }
-}
-
 .texto-contacto {
   position: relative;
   display: flex;
