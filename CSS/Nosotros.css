@@ -57,7 +57,7 @@ h1 {
   text-align: center;
   text-shadow: #000 2px 3px 4px; 
   font-family: 'antonio', sans-serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   color: #ffff;
 }
@@ -157,7 +157,6 @@ p {
   display: flex;
   justify-content: center; 
   width: 90%;
-  height: 40%;
   flex-direction: column;
   align-items: center;
 }
@@ -172,6 +171,7 @@ p {
 .boton-unirse {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 60%;
   background-color: #f1da44;
   border-radius: 5px;
@@ -404,7 +404,7 @@ p {
 .negrita {
   font-size: 1.8rem;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   color: #f1da44;
 }
 
@@ -470,6 +470,121 @@ footer {
   color: #67727a;
 }
 
+@media (max-width: 576px) {
 
+   header {
+    height: 58px;
+  }
 
+  .logo-cas {
+    width: 15%;
+    height: 50%;
+  }
+
+  .contenedor-marca h1 {
+    font-size: 0.6rem;
+  }
+
+  .boton {
+    font-size: 0.6rem;
+    margin: 0 0.5rem;
+  }
+
+  .primera-seccion {
+   height: 150px;
+   }  
+
+   .titulo-banner h1 {
+    font-size: 1.6rem;
+   }
+
+   .boton-unirse {
+    width: 22%;
+    font-size: 0.9rem;
+   }
+    
+  }
+
+@media (min-width: 577px) and (max-width: 1000px) {
+
+  header {
+    height: 70px;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+   }
+
+  h2 {
+      font-size: 1.6rem;
+  }
+   
+   
+  h3 {
+    font-size:  1.4rem;
+    width: 90%;
+   }
+  
+  .logo-cas {
+    width: 15%;
+    height: 50%;
+  }
+
+  .boton {
+    font-size: 0.7rem;
+  }
+
+  .primera-seccion {
+   height: 175px;
+   }  
+
+   .boton-unirse {
+    width: 52%;
+    font-size: 0.9rem;
+   }
+
+   .contacto {
+    width: 50%;
+   }
+
+  .titulo-contacto {
+    width: 80%;
+ }
+  
+  .negrita {
+    font-size: 1.3rem;
+  }
+  .mapa {
+    width: 66%;
+    height: 70%;
+   }
+
+   .maps {
+    width: 90%;
+   }
+
+   .columnas-footer {  
+    margin: 0;
+    align-items: center;
+  }
+}
+
+ /* grande */ 
+@media (min-width: 1001px) {
+  
+.logo-cas {
+  width: 15%;
+  height: 50%;
+     }
+   
+
+  .titulo-contacto {
+    width: 100%;
+  }
+
+    .mapa {
+     width: 66%;
+     height: 70%;
+     }
+}
 
