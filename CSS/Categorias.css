@@ -91,6 +91,7 @@ p {
 .contenedor-logo-marca {
   display: flex;
   align-items: center;
+  width: 33%;
   }
 
 .contenedor-marca{
@@ -99,7 +100,7 @@ p {
   margin: 5px;
 }
 
-#Marca {
+.contenedor-marca h1 {
   display: flex;
   font-size: 1rem;
   text-align: center;
@@ -121,12 +122,11 @@ p {
 .Barra-de-navegación{
   display: flex;
   justify-content: flex-end;
-  max-width: 100%;
+  width: 67%;
   margin: 0;
 }
 
 .botones {  
-  list-style: none;
   display: flex;    
 }
 
@@ -218,6 +218,7 @@ p {
 
 .columnas {
   display: flex;
+  align-items: center;
   margin: 0.5rem 0;
 }
 
@@ -228,7 +229,6 @@ p {
   border-radius: 8px;
   margin: 1.5rem;
   padding: 1rem;
-  height: 90%;
 }
 
 footer {
@@ -256,6 +256,7 @@ footer {
   }
 
 .copyright {
+  font-family: ARYA, sans-serif;
   font-size: 0.9rem;
   color: #67727a;
   margin: 0.5rem;
@@ -265,17 +266,6 @@ footer {
   list-style: none;
   padding: 0;
   display: flex;
-}
-
-.lista-footer ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.lista-footer li {
-  display: flex;
-  margin-right: 20px;
 }
 
 .lista-footer a {
@@ -293,30 +283,58 @@ footer {
 
 /* pequeña*/
 @media (max-width: 576px) {
+
+   header {
+    height: 58px;
+  }
+  
+  .contenedor-logo-marca {
+    width: 30%;
+  }
+
+  .logo-cas {
+    width: 15%;
+    height: 50%;
+  }
+
+  .contenedor-marca h1 {
+    font-size: 0.6rem;
+  }
+
+  .boton {
+    font-size: 0.6rem;
+    margin: 0 0.5rem;
+  }
+
   .primera-seccion {
    height: 150px;
    }  
 
    .titulo-banner h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
    }
-   
+
    .boton-unirse {
     width: 22%;
     font-size: 0.9rem;
    }
     
     .seccion-titulo h2 {
-      font-size: 1.5rem;
+    font-size: 1.2rem;
     }
 
     .categoria {
-    width: 90%;
-    background-color: yellow;
+    width: 70%;
+    height: 78%;
+    background-color: white;
   }
-  .categoria h1 {
+  .categoria h3 {
     justify-content: center;
-    font-size: 2rem;
+    font-size: 0.9rem;
+   }
+
+   .categoria p {
+    font-size: 0.6rem;
    }
 }
 
@@ -341,7 +359,7 @@ footer {
    }  
 
    .titulo-banner h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
    }
    
    .boton-unirse {
@@ -350,34 +368,26 @@ footer {
    }
     
     .seccion-titulo h2 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
     }
-
-   .columnas {
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-   }
 
   .categoria {
     width: 90%;
+    height: 90%;
     background-color: grey;
+    align-items: center;
    }
     .categoria h3 {
-    font-size: 1.5rem;
-
-    .categoria p {
-    font-size: 1.5rem;
-    max-width: 80%;
+    font-size: 1.4rem;
     }
 
-    .redes-sociales ul { 
-    display:flex;
-    flex-direction: row;
-     }
+    .categoria p {
+    font-size: 0.9rem;
+    max-width: 80%;
+    }
 }
 
-/* grande */
+/* /* grande 
 @media (min-width: 1001px) {
 
     header {
@@ -390,15 +400,11 @@ footer {
   }
 
   .boton {
-    font-size: 0.7rem;
-  }
-
-  .primera-seccion {
-   height: 150px;
-   }  
+    font-size: 1rem;
+  } 
 
    .titulo-banner h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
    }
    
    .boton-unirse {
@@ -407,30 +413,20 @@ footer {
    }
     
     .seccion-titulo h2 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
 
    .columnas {
-    flex-direction: column;
     align-items: center;
     margin: 0;
    }
 
-
    .categoria {
     width: 90%;
+    height: 90%;
     background-color: green;
   }
     .categoria h3 {
     font-size: 1.5rem;
   }
-    .categoria p {
-    font-size: 1.5rem;
-    max-width: 80%;
-    }
-
-    .redes-sociales ul { 
-    display:flex;
-    flex-direction: row;
-     }
-}
+}*/
