@@ -127,7 +127,9 @@ p {
 }
 
 .botones {  
-  display: flex;    
+  display: flex;   
+  justify-content: flex-end;
+  width: 100%; 
 }
 
 .boton {
@@ -287,10 +289,6 @@ footer {
    header {
     height: 58px;
   }
-  
-  .contenedor-logo-marca {
-    width: 30%;
-  }
 
   .logo-cas {
     width: 15%;
@@ -327,6 +325,7 @@ footer {
     width: 70%;
     height: 78%;
     background-color: white;
+    margin: 1rem;
   }
   .categoria h3 {
     justify-content: center;
@@ -387,7 +386,7 @@ footer {
     }
 }
 
-/* /* grande 
+ /* grande */ 
 @media (min-width: 1001px) {
 
     header {
@@ -429,4 +428,4 @@ footer {
     .categoria h3 {
     font-size: 1.5rem;
   }
-}*/
+}
