@@ -88,6 +88,7 @@ p {
 .contenedor-logo-marca {
   display: flex;
   align-items: center;
+  width: 33%;
   }
 
 .contenedor-marca{
@@ -96,7 +97,7 @@ p {
   margin: 5px;
 }
 
-#Marca {
+.contenedor-marca h1 {
   display: flex;
   font-size: 1rem;
   text-align: center;
@@ -118,15 +119,14 @@ p {
 .Barra-de-navegación{
   display: flex;
   justify-content: flex-end;
-  max-width: 100%;
+  width: 67%;
   margin: 0;
 }
 
 .botones {  
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;    
+  display: flex;   
+  justify-content: flex-end;
+  width: 100%; 
 }
 
 .boton {
@@ -188,6 +188,8 @@ p {
     color: #2e3540;
   }
 }
+
+
 
 .segunda-seccion {
   width: 100%;
