@@ -212,7 +212,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  max-width: 38%;
   margin: 1rem;
 }
 
@@ -232,7 +232,7 @@ p {
 .somos-el-club {
   display: flex;
   color: #dee7e6;
-  margin: 2rem 1rem 1rem 1rem;
+  margin:1rem;
   text-align: left;
   max-width: 100%;
   height: auto;
@@ -467,6 +467,14 @@ footer {
    header {
     height: 58px;
   }
+  
+   h2 {
+    font-size: 1.2rem;
+    }
+
+   p {
+    font-size: 0.9rem;
+   }
 
   .logo-cas {
     width: 15%;
@@ -483,7 +491,7 @@ footer {
   }
 
   .primera-seccion {
-   height: 150px;
+   height: 120px;
    }  
 
    .titulo-banner h1 {
@@ -495,6 +503,96 @@ footer {
     font-size: 0.9rem;
    }
 
+   .contenedor-segunda-seccion {
+    flex-direction: column;
+   }
+
+   .sub-contenedor-4 {
+    max-width: 100%;
+    margin: 0;
+   }
+
+   .cuadricula-imagenes {
+    max-width: 100%;
+   }
+
+   .fila-imagenes {
+    width: 50%;
+    align-items: center;
+   }
+
+   .partidos {
+    margin: 0.5rem;
+  }
+
+  .copyright {
+    width: 70%;
+  }
+
+   .columnas-footer {  
+    margin: 0;
+    align-items: center;
+
+    .redes-sociales {
+      display: flex;
+    }
+
  }
+
+@media (min-width: 577px) and (max-width: 1000px) {
+
+  header {
+    height: 70px;
+  }
+
+ h1 {
+   font-size: 2.3rem;
+   }
+
+ h3 {
+  font-size: 1.4rem;
+  }
+
+ h2 {
+      font-size: 1.6rem;
+    }
+
+.logo-cas {
+    width: 15%;
+    height: 50%;
+  }
+
+  .boton {
+    font-size: 0.7rem;
+  }
+
+  .primera-seccion {
+   height: 175px;
+   }  
+   
+   .boton-unirse {
+    width: 52%;
+    font-size: 0.9rem;
+   } 
+
+   .columnas-footer {  
+    margin: 0;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1001px) {
+  
+  .logo-cas {
+    width: 15%;
+    height: 50%;
+     }
+}
+
+
+
+
+
+
 
 

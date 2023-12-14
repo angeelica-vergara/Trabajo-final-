@@ -293,6 +293,10 @@ footer {
     height: 58px;
   }
 
+ h2 {
+    font-size: 1.2rem;
+    }
+  
   .logo-cas {
     width: 15%;
     height: 50%;
@@ -308,7 +312,7 @@ footer {
   }
 
   .primera-seccion {
-   height: 150px;
+   height: 120px;
    }  
 
    .titulo-banner h1 {
@@ -319,11 +323,7 @@ footer {
     width: 22%;
     font-size: 0.9rem;
    }
-    
-    .seccion-titulo h2 {
-    font-size: 1.2rem;
-    }
-
+  
     .categoria {
     width: 70%;
     height: 80%;
@@ -351,8 +351,20 @@ footer {
   header {
     height: 70px;
   }
-  
-  .logo-cas {
+
+ h1 {
+   font-size: 2.3rem;
+   }
+
+ h3 {
+  font-size: 1.4rem;
+  }
+
+ h2 {
+      font-size: 1.6rem;
+    }
+
+.logo-cas {
     width: 15%;
     height: 50%;
   }
@@ -364,30 +376,17 @@ footer {
   .primera-seccion {
    height: 175px;
    }  
-
-   .titulo-banner h1 {
-    font-size: 2.3rem;
-   }
    
    .boton-unirse {
     width: 52%;
     font-size: 0.9rem;
    }
     
-    .seccion-titulo h2 {
-      font-size: 1.6rem;
-    }
-
   .categoria {
     width: 90%;
     height: 90%;
-    background-color: grey;
     align-items: center;
    }
-    .categoria h3 {
-    font-size: 1.4rem;
-    }
-
      .columnas-footer {  
     margin: 0;
     align-items: center;
@@ -397,9 +396,9 @@ footer {
  /* grande */ 
 @media (min-width: 1001px) {
   
-    .logo-cas {
-      width: 15%;
-      height: 50%;
+  .logo-cas {
+    width: 15%;
+    height: 50%;
      }
 
    .columnas {
@@ -410,6 +409,5 @@ footer {
    .categoria {
     width: 90%;
     height: 90%;
-    background-color: green;
   }
 }

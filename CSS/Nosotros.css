@@ -262,6 +262,7 @@ p {
   text-align: left;
   color: #dee7e6;
   height: 90%;
+  margin: 0.5rem 0;
 }
 
 .lista-valores{
@@ -269,6 +270,7 @@ p {
  padding-left: 0;
   height: 90%;
   width: 100%;
+  margin: 0.5rem 0;
 }
 
 .valores ion-icon {
@@ -476,6 +478,15 @@ footer {
     height: 58px;
   }
 
+   h2 {
+    font-size: 1.2rem;
+    }
+   
+   
+  h3 {
+    font-size:  1.4rem;
+   }
+
   .logo-cas {
     width: 15%;
     height: 50%;
@@ -491,7 +502,7 @@ footer {
   }
 
   .primera-seccion {
-   height: 150px;
+   height: 120px;
    }  
 
    .titulo-banner h1 {
@@ -501,8 +512,7 @@ footer {
    .boton-unirse {
     width: 22%;
     font-size: 0.9rem;
-   }
-    
+   }   
   }
 
 @media (min-width: 577px) and (max-width: 1000px) {
