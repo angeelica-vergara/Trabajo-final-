@@ -200,7 +200,7 @@ p {
   text-align: center;
 }
 
-.seccion-titulo {
+.seccion-titulo h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,12 +209,19 @@ p {
   padding: 0.5rem;
 }
 
+.introduccion-seccion {
+  max-width: 80%;
+  margin: 1rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
 .contenedor-categorias {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   height: auto;
-  margin: 1rem;
 }
 
 .columnas {
@@ -230,6 +237,7 @@ p {
   border-radius: 8px;
   margin: 1.5rem;
   padding: 1rem;
+  height: 90%;
 }
 
 .categoria p { 
@@ -286,7 +294,6 @@ footer {
   color: #67727a;
 }
 
-/* pequeña*/
 @media (max-width: 576px) {
 
    header {
@@ -327,7 +334,6 @@ footer {
     .categoria {
     width: 70%;
     height: 80%;
-    background-color: white;
     margin: 1rem;
   }
   .categoria h3 {
@@ -339,13 +345,24 @@ footer {
     font-size: 0.6rem;
    }
 
+  .partidos {
+    margin: 0.5rem;
+  }
+
+  .copyright {
+    width: 70%;
+  }
+
    .columnas-footer {  
     margin: 0;
     align-items: center;
-  }
+
+    .redes-sociales {
+      display: flex;
+    }
+
 } 
 
-/* mediana */
 @media (min-width: 577px) and (max-width: 1000px) {
 
   header {
@@ -384,7 +401,7 @@ footer {
     
   .categoria {
     width: 90%;
-    height: 90%;
+    height: 70%;
     align-items: center;
    }
      .columnas-footer {  
@@ -393,7 +410,6 @@ footer {
   }
 }
 
- /* grande */ 
 @media (min-width: 1001px) {
   
   .logo-cas {
